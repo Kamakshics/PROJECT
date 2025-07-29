@@ -93,3 +93,21 @@ if __name__ == "__main__":
  Flask
 requests
 beautifulsoup4
+
+# Web Application Vulnerability Scanner
+
+This project is a simple Python-based web scanner that identifies vulnerabilities like XSS in target web applications.
+
+## Features
+- Scans for basic vulnerabilities in forms
+- Crawls and analyzes a target URL
+- Outputs a scan report in JSON format
+- Simple Flask web interface
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/web_scanner_project.git
+cd web_scanner_project
+pip install -r requirements.txt
+
